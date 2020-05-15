@@ -25,3 +25,16 @@ plt.bar(left, height, alpha=1, width=0.8, color=, edgecolor=, label=, lw=3)   #l
                                                                               color: color of the bar     edgecolor: color of the bar edge
                                                                               label: label of the bar       lw:linewidth(edge)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
