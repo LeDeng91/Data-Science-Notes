@@ -1,1 +1,8 @@
+Notes taken from coursera lectures and assignments: only for the editor himself for the sake of learning
+
+%matplotlib notebook        #This command provides an interactive environment for the user of jupyter notebook. 
+                              For programming in other environments don't forget to use plt.show() to show the graphic.
+
+plt.plot()                  #Very basic command. Draw a graphic! Always in this format: plt.plot(x,y)
+
 
