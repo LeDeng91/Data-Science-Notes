@@ -7,6 +7,10 @@ plt.plot()                  #Very basic command. Draw a line plot! Format: plt.p
 
 plt.axis([xmin, xmax, ymin, ymax])   #set the range for the figure
 
+plt.xlim(-2,2)              #set range for x-axis
+
+plt.ylim(-2,2)              #set range for y-axis
+
 np.linspace(x,y,num)        #Return evenly spaced numbers over a specified interval.
 
 plt.subplots(x,y,z)         #x: number of axis0         y:number of axis1       z:location/number of your figure
@@ -24,6 +28,8 @@ x.get_ticklabels()         #get labels of ticks
 plt.bar(left, height, alpha=1, width=0.8, color=, edgecolor=, label=, lw=3)   #left: x-axis    height: y-axis   alpha:transparency 
                                                                               color: color of the bar     edgecolor: color of the bar edge
                                                                               label: label of the bar       lw:linewidth(edge)
+
+plt.annotate()              #to annotate
 
 
 
