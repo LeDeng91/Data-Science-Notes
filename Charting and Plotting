@@ -1,8 +1,27 @@
 Notes taken from coursera lectures and assignments: only for the editor himself for the sake of learning
 
 %matplotlib notebook        #This command provides an interactive environment for the user of jupyter notebook. 
-                              For programming in other environments don't forget to use plt.show() to show the graphic.
+                             For programming in other environments don't forget to use plt.show() to show the figure.
 
-plt.plot()                  #Very basic command. Draw a graphic! Always in this format: plt.plot(x,y)
+plt.plot()                  #Very basic command. Draw a line plot! Format: plt.plot(x,y)
 
+plt.axis([xmin, xmax, ymin, ymax])   #set the range for the figure
+
+np.linspace(x,y,num)        #Return evenly spaced numbers over a specified interval.
+
+plt.subplots(x,y,z)         #x: number of axis0         y:number of axis1       z:location/number of your figure
+
+plt.scatter(x,y)            #draw scatterplots
+
+plt.xlabel('...')           #add label to x-axis
+
+plt.ylabel('...')           #add label to y-axis
+
+plt.legend(loc=4, frameon=False, title='Legend')      #add a legend to the lower right corner and gets rid of the frame and adds a title
+
+x.get_ticklabels()         #get labels of ticks
+
+plt.bar(left, height, alpha=1, width=0.8, color=, edgecolor=, label=, lw=3)   #left: x-axis    height: y-axis   alpha:transparency 
+                                                                              color: color of the bar     edgecolor: color of the bar edge
+                                                                              label: label of the bar       lw:linewidth(edge)
 
