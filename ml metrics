@@ -6,3 +6,7 @@ Recall=True Positive/(True Positive+False Negative)
 f1 score: 2*Precision*Recall/(Precision+Recall)
 Precision-Recall Curves: X-axis: Precision   Y-axis: Recall  |  Top right corner of the diagramm: the ideal point, precision=recall=1.0 |  important to maximize precision and recall
 ROC Curves: X-axis: False Positive Rate   Y-axis:True Positive Rate   |   Top left corner of the diagramm: the ideal point  |  important to maximize TP rate and minimize the FP rate
+----------------------------------------------------------------------------Attention------------------------------------------------------------------------------
+for Regression:
+typically r2_score is enough              alternative metrics are: mean_absolute_error, mean_squared_error, median_absolute_error
+Also can try to compare with a dummy regressors
