@@ -1,0 +1,7 @@
+------------------------------------------------------------------To Start a Machine Learning Project------------------------------------------------------------------------------------
+about cross-validation:
+use 3 data splits: 1. Training set(model building)   2. Validation set(model selection)     3.Test set(final evaluation)
+
+In practice: 1. Create an initial training/test split
+2. Do cross-validation on the training data for model/parameter selection
+3. Save the held-out set for final model evaluation
