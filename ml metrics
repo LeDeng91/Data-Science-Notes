@@ -1,3 +1,8 @@
 What is variance: a measure of how far observed values differ from the average of predicted values(their difference from the predicted value mean). The goal is to have low variance. What low means is quantified by r2 score.
 r2 score: varies between 0 and 100%. It is closely related to the MSE(mean square error), but not the same. Formel: 1-((ytest[i]-preds[i])**2/(ytest[i]-mean_ytest)**2)
 MSE: The average of the square of the errors. Error means the difference between the observed values and the predicted ones
+precision=True Positive/(True Positive+False Positive)
+Recall=True Positive/(True Positive+False Negative)
+f1 score: 2*Precision*Recall/(Precision+Recall)
+Precision-Recall Curves: X-axis: Precision   Y-axis: Recall  |  Top right corner of the diagramm: the ideal point, precision=recall=1.0 |  important to maximize precision and recall
+ROC Curves: X-axis: False Positive Rate   Y-axis:True Positive Rate   |   Top left corner of the diagramm: the ideal point  |  important to maximize TP rate and minimize the FP rate
