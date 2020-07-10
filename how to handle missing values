@@ -1,0 +1,6 @@
+---------------------------------------------------------five ways to handle the missing values in a file for machine learning--------------------------------------------------
+1. Deleting Rows
+2. Replacing with Mean/Median/Mode
+3. Assigning an unique Category
+4. Predicting the missing values
+5. Using Algorithms which support missing values
