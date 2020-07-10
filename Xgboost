@@ -1,0 +1,7 @@
+---------------------------------------------------------------------Xgboost parameter tunning--------------------------------------------------------------------------------------
+1. eta: step length for every iteration. Smaller eta means slower training
+2. num_round: number of the iteration
+3. subsample: the amount of samples for traing in the training-set
+4. colsample_bytree: the proportion of features for training every tree
+5. max_depth: max depth for the trees. Attention: without a given max-depth can model overfitt
+6. early_stopping_rounds: to stop training if there is no score-increasing after given round-number
