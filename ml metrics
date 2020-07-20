@@ -1,6 +1,6 @@
 What is variance: a measure of how far observed values differ from the average of predicted values(their difference from the predicted value mean). The goal is to have low variance. What low means is quantified by r2 score.
 
-r2 score: varies between 0 and 100%. It is closely related to the MSE(mean square error), but not the same. Formel: 1-((ytest[i]-preds[i])**2/(ytest[i]-mean_ytest)**2)
+r2 score: varies between 0 and 100%(100% the best). It is closely related to the MSE(mean square error), but not the same. Formel: 1-((ytest[i]-preds[i])**2/(ytest[i]-mean_ytest)**2)
 
 MSE: The average of the square of the errors. Error means the difference between the observed values and the predicted ones
 
