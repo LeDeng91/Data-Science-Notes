@@ -1,0 +1,7 @@
+-----------------------------------------------------------------What to do if the accuracy of a NN is low--------------------------------------------------------------------------------
+Try different optimizers, based on my experience Adam is a good starting point.
+Try different activation functions; I recommend you to start with "relu", and try "selu" and "elu" as well.
+Add regularization. Dropout and BatchNormalization may increase your test accuracy.
+Give your network some time, train it longer.
+Play around with hyperparameters such as a number of layers, batch size, a number of epochs, learning rate and so on...
+Lastly, always normalize your data before feeding it to the NN
