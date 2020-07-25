@@ -1,0 +1,18 @@
+sklearn.decomposition.TruncatedSVD:       This transformer performs linear dimensionality reduction by means of truncated singular value decomposition (SVD). Contrary to PCA, 
+                                          this estimator does not center the data before computing the singular value decomposition. 
+                                          This means it can work with sparse matrices efficiently.
+                                          
+sklearn.decomposition.PCA:                Linear dimensionality reduction using Singular Value Decomposition of the data to project it to a lower dimensional space. The input data 
+                                          is centered but not scaled for each feature before applying the SVD.
+                                          
+sklearn.decomposition.FastICA:            A fast algorithm for Independent Component Analysis     
+
+sklearn.random_projection.GaussianRandomProjection:           Reduce dimensionality through Gaussian random projection. The components of the random matrix 
+                                                              are drawn from N(0, 1 / n_components).
+                                                             
+sklearn.random_projection.SparseRandomProjection:             Reduce dimensionality through sparse random projection
+
+sklearn.random_projection.SparseRandomProjection:             Sparse random matrix is an alternative to dense random projection matrix that guarantees similar embedding quality 
+                                                              while being much more memory efficient and allowing faster computation of the projected data.
+                                                             
+                                                             
