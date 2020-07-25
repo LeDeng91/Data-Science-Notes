@@ -1,0 +1,3 @@
+issubclass(Arg1, Arg2):      determine whether Arg1 is a subclass of Arg2, return a True or False
+hasattr(object, name):       determine whether object has the attribute(name), return a True or False
+hstack((a,b)):               stack arrays in sequence horizontly
