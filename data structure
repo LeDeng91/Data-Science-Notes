@@ -1,0 +1,5 @@
+dictionary: has the following structure:
+           dic={"ind1":"obj1","ind2":"obj2":"ind3":"obj3"}
+           
+           keep in mind! if you treat the dictionary only like a list, u can only find the ind-type element(for instance obj1 in dic is FALSE). If u want retrieve the obj1 u
+           need dic["ind1"]
