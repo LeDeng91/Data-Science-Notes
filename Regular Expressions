@@ -38,3 +38,20 @@ Meta-characters: Repetitions
 {n,}: at least n repetitions
 {,n}: at most n repetitions
 {m,n}: at least m and at most n repetitions
+
+-------------------------------------------------------------------------------------------------------------------------------------
+Regular expression for Dates:
+\d{2}[/-]\d{2}[/-]\d{4}
+
+re.findall(r'\d{2}[/-]\d{2}[/-]\d{2,4}', dateStr)
+
+re.findall(r'\d{2} (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\d{4}', dateStr)
+>['Oct']
+
+re.findall(r'\d{2} (?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\d{4}', dateStr)
+>['23 Oct 2002']
+
+re.findall(r'\d{2} (?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]* \d{4}', dateStr)
+>['23 Oct 2002', '23 October 2002']
+
+
